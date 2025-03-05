@@ -24,3 +24,8 @@ scheduler.py가 위치한 폴더에서 실행, scheduler.py를 실행 파일로 
 - 결과
   
 ![스크린샷 2025-03-05 154342](https://github.com/user-attachments/assets/1df1f91e-c0ad-444e-a454-58bddd1ecfed)
+
+
+---
+- MIMEMultipart는 여러 개의 파트를 포함할 수 있는 이메일을 만들기 위해 사용됩니다. (예: 본문 + 첨부파일)
+- https://blog.naver.com/rian4u/221400652708

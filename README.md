@@ -12,3 +12,6 @@
 - pyinstaller --onefile --distpath C:\scheduler_exe\schedu
 ler --add-data "c:/scheduler/template.docx;." scheduler.py
 scheduler.py가 위치한 폴더에서 실행, scheduler.py를 실행 파일로 변경한다. C:\scheduler_exe\scheduler 폴더에 생성하며 c:/scheduler/template.docx 파일을 포함한다.
+
+- 실행 모습
+![스크린샷 2025-03-05 142629](https://github.com/user-attachments/assets/77a98e5a-02e9-4794-8d12-673fa90a420d)

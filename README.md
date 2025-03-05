@@ -6,8 +6,9 @@
 4. exe파일 실행 시, 스케줄러가 작동하여 매일 오전 9시에 날짜와 시각이 입력(수정)된 docx파일이 output.docx라는 이름으로 생성되며 지정된 메일로 전송된다.
 
 - scheduler_prac: 코드 폴더
-- scheduler: template.docx파일 위치
-- scheduler_exe: 실행 파일 위치
+- scheduler: template.docx 파일이 위치함
+- scheduler_exe: 실행 파일이 위치함
+- cscheduleroutput.docx: 생성된 파일
 
 - pyinstaller --onefile --distpath C:\scheduler_exe\schedu
 ler --add-data "c:/scheduler/template.docx;." scheduler.py

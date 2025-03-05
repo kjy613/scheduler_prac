@@ -11,8 +11,8 @@ from email import encoders
 TEMPLATE_PATH = r"c:\scheduler\template.docx"
 OUTPUT_PATH = r"c:\scheduler\output.docx"
 EMAIL_SENDER = "kkosoljyli@gmail.com"
-EMAIL_PW = "plvw ivjt nwzr siea" # 구글 앱 비밀번호
-EMAIL_RECEIVER = "flyjy03@naver.com"
+EMAIL_PW = "---- ---- ---- ----" # 구글 앱 비밀번호
+EMAIL_RECEIVER = "jyeon@castis.com"
 
 def create_word_file():
     doc = Document(TEMPLATE_PATH)
